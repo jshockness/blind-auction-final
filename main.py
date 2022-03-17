@@ -7,7 +7,7 @@ bids = {}
 bidding_finished = False
 
 def find_highest_bid(bid_record):
-  # bid_record = {"John": 120, "Doe": 210}
+  # ex.bid_record = {"John": 120, "Doe": 210}
   highest_bid = 0
   winner = ""
   for bidder in bid_record:
